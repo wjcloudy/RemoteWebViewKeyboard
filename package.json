@@ -1,0 +1,13 @@
+{
+  "name": "remote-webview-keyboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/config.test.mjs",
+    "test:browser": "node tests/keyboard.browser.mjs"
+  },
+  "devDependencies": {"playwright-core": "^1.62.1"}
+}
